@@ -1,0 +1,684 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Bakhtishod Umurzokov — Mobile Developer specializing in Flutter & Dart. Portfolio, projects, experience, and academics.">
+  <title>Bakhtishod Umurzokov — Mobile Developer</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="sticky-top" id="site-header">
+    <nav class="navbar navbar-expand-lg container">
+      <a class="navbar-brand" href="#">Bakhtishod<span class="dot">.</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"
+        aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-1">
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#academics">Academics</a></li>
+          <li class="nav-item"><a class="nav-link" href="#favorites">Favorites</a></li>
+          <li class="nav-item ms-lg-2">
+            <a class="btn btn-brand btn-sm px-4" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="hero">
+      <div class="hero-glow"></div>
+      <div class="container position-relative">
+        <div class="row align-items-center g-5 py-5">
+          <div class="col-lg-7">
+            <span class="badge-label">
+              <span class="pulse-dot"></span>
+              Open to opportunities
+            </span>
+            <h1 class="hero-title">
+              Hi, I'm <span class="text-gradient">Bakhtishod</span>
+            </h1>
+            <p class="hero-subtitle">Mobile Developer &amp; Flutter Specialist</p>
+            <p class="hero-bio">
+              Innovative developer building high-performance, user-centric cross-platform apps.
+              Based in Budapest&nbsp;🇭🇺, currently at&nbsp;<strong>AIVA Group</strong>&nbsp;&amp;
+              studying CS at&nbsp;<strong>ELTE University</strong>.
+            </p>
+            <div class="hero-actions mt-4 d-flex flex-wrap gap-3">
+              <a href="#portfolio" class="btn btn-brand btn-lg">
+                <i class="bi bi-grid-fill me-2"></i>My Work
+              </a>
+              <a href="#contact" class="btn btn-outline-light btn-lg">
+                <i class="bi bi-send me-2"></i>Get in Touch
+              </a>
+            </div>
+            <div class="hero-social mt-4">
+              <a href="https://github.com/bakhtishod" target="_blank" rel="noopener" aria-label="GitHub">
+                <i class="bi bi-github"></i>
+              </a>
+              <a href="https://linkedin.com/in/bakhtishod" target="_blank" rel="noopener" aria-label="LinkedIn">
+                <i class="bi bi-linkedin"></i>
+              </a>
+              <a href="https://t.me/iamumurzakov" target="_blank" rel="noopener" aria-label="Telegram">
+                <i class="bi bi-telegram"></i>
+              </a>
+              <a href="https://www.youtube.com/@BakhtishodEU" target="_blank" rel="noopener" aria-label="YouTube">
+                <i class="bi bi-youtube"></i>
+              </a>
+              <a href="https://bakhtishoddev.uz" target="_blank" rel="noopener" aria-label="Website">
+                <i class="bi bi-globe2"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-5 text-center">
+            <div class="hero-avatar-wrap">
+              <div class="hero-avatar">
+                <img src="assets/profile.svg" alt="Bakhtishod Umurzokov" class="profile-img">
+              </div>
+              <div class="hero-stats">
+                <div class="stat-pill">
+                  <span class="stat-num">3+</span>
+                  <span class="stat-lbl">Years Exp</span>
+                </div>
+                <div class="stat-pill">
+                  <span class="stat-num">8+</span>
+                  <span class="stat-lbl">Apps Shipped</span>
+                </div>
+                <div class="stat-pill">
+                  <span class="stat-num">2</span>
+                  <span class="stat-lbl">Stores</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-scroll">
+        <a href="#services" aria-label="Scroll down"><i class="bi bi-chevron-down"></i></a>
+      </div>
+    </section>
+
+    <!-- ===== SERVICES ===== -->
+    <section id="services" class="section-pad">
+      <div class="container">
+        <div class="section-header text-center mb-5">
+          <span class="section-tag">What I Do</span>
+          <h2 class="section-title">Services</h2>
+          <p class="section-sub">Skills and expertise I bring to every project</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <div class="service-card">
+              <div class="service-icon"><i class="bi bi-phone-fill"></i></div>
+              <h5>Flutter App Development</h5>
+              <p>Cross-platform mobile apps for Android &amp; iOS. Clean architecture, BLoC / Riverpod state management, and pixel-perfect Material Design UI.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="service-card">
+              <div class="service-icon"><i class="bi bi-cloud-arrow-up-fill"></i></div>
+              <h5>REST API Integration</h5>
+              <p>Seamless REST/HTTPS integrations with Dio, OAuth &amp; JWT auth flows, efficient data fetching, and error-handling strategies.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="service-card">
+              <div class="service-icon"><i class="bi bi-fire"></i></div>
+              <h5>Firebase Services</h5>
+              <p>Firestore, Realtime Database, Firebase Auth, Analytics, Remote Config, and Cloud Functions for scalable serverless backends.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="service-card">
+              <div class="service-icon"><i class="bi bi-gear-wide-connected"></i></div>
+              <h5>CI/CD &amp; DevOps</h5>
+              <p>Automated pipelines with Jenkins &amp; GitHub Actions, Dockerized environments, and Kubernetes deployments for reliable releases.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="service-card">
+              <div class="service-icon"><i class="bi bi-palette-fill"></i></div>
+              <h5>UI/UX Implementation</h5>
+              <p>Custom animations, responsive layouts, accessibility-first components, and close collaboration with designers for polished results.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="service-card">
+              <div class="service-icon"><i class="bi bi-database-fill-gear"></i></div>
+              <h5>Database Architecture</h5>
+              <p>SQLite, Firestore &amp; Realtime Database schema design with offline-first strategies, caching layers, and data persistence patterns.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PORTFOLIO ===== -->
+    <section id="portfolio" class="section-pad bg-subtle">
+      <div class="container">
+        <div class="section-header text-center mb-5">
+          <span class="section-tag">My Work</span>
+          <h2 class="section-title">Portfolio</h2>
+          <p class="section-sub">Apps I've built and shipped — from concept to store</p>
+        </div>
+        <div class="row g-4">
+
+          <!-- AvtoSalon -->
+          <div class="col-md-6 col-lg-4">
+            <article class="project-card">
+              <div class="project-banner" style="background:linear-gradient(135deg,#667eea 0%,#764ba2 100%)">
+                <i class="bi bi-car-front-fill"></i>
+              </div>
+              <div class="project-body">
+                <h5>AvtoSalon</h5>
+                <p>Car dealership app with Firestore integration, multi-language support, advanced filtering, and real-time inventory updates.</p>
+                <div class="tech-tags">
+                  <span>Flutter</span><span>Firestore</span><span>i18n</span>
+                </div>
+              </div>
+              <div class="project-footer">
+                <span class="store-badge"><i class="bi bi-apple"></i> App Store</span>
+                <span class="store-badge"><i class="bi bi-google-play"></i> Play Store</span>
+              </div>
+            </article>
+          </div>
+
+          <!-- Travel Guide -->
+          <div class="col-md-6 col-lg-4">
+            <article class="project-card">
+              <div class="project-banner" style="background:linear-gradient(135deg,#11998e 0%,#38ef7d 100%)">
+                <i class="bi bi-map-fill"></i>
+              </div>
+              <div class="project-body">
+                <h5>Travel Guide Uzbekistan</h5>
+                <p>Tourist companion app featuring Google Maps integration and bidirectional translation for exploring Uzbekistan's rich heritage.</p>
+                <div class="tech-tags">
+                  <span>Flutter</span><span>Google Maps</span><span>Translation</span>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- DeZiel -->
+          <div class="col-md-6 col-lg-4">
+            <article class="project-card">
+              <div class="project-banner" style="background:linear-gradient(135deg,#f7971e 0%,#ffd200 100%)">
+                <i class="bi bi-translate"></i>
+              </div>
+              <div class="project-body">
+                <h5>DeZiel</h5>
+                <p>German vocabulary learning platform with spaced repetition, multi-language UI support, and progress tracking.</p>
+                <div class="tech-tags">
+                  <span>Flutter</span><span>SQLite</span><span>Multi-lang</span>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- Emyat -->
+          <div class="col-md-6 col-lg-4">
+            <article class="project-card">
+              <div class="project-banner" style="background:linear-gradient(135deg,#f953c6 0%,#b91d73 100%)">
+                <i class="bi bi-sign-stop-fill"></i>
+              </div>
+              <div class="project-body">
+                <h5>Emyat: Road Traffic Rules</h5>
+                <p>Offline-first educational app for learning traffic regulations, backed by Firebase Analytics for usage insights.</p>
+                <div class="tech-tags">
+                  <span>Flutter</span><span>Firebase Analytics</span><span>Offline-first</span>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- Moziy -->
+          <div class="col-md-6 col-lg-4">
+            <article class="project-card">
+              <div class="project-banner" style="background:linear-gradient(135deg,#4776e6 0%,#8e54e9 100%)">
+                <i class="bi bi-book-fill"></i>
+              </div>
+              <div class="project-body">
+                <h5>Moziy</h5>
+                <p>Platform for digitizing Uzbek literary works, preserving cultural heritage with Yandex Mobile Ads for monetization.</p>
+                <div class="tech-tags">
+                  <span>Flutter</span><span>Yandex Ads</span><span>Firebase</span>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- StroyPoint -->
+          <div class="col-md-6 col-lg-4">
+            <article class="project-card">
+              <div class="project-banner" style="background:linear-gradient(135deg,#f2994a 0%,#f2c94c 100%)">
+                <i class="bi bi-building-fill"></i>
+              </div>
+              <div class="project-body">
+                <h5>StroyPoint</h5>
+                <p>Construction materials marketplace with geolocation features, 2 000+ listed items, and supplier catalog management.</p>
+                <div class="tech-tags">
+                  <span>Flutter</span><span>Geolocation</span><span>REST API</span>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- Artisan Mobile -->
+          <div class="col-md-6 col-lg-4">
+            <article class="project-card">
+              <div class="project-banner" style="background:linear-gradient(135deg,#e96c2f 0%,#f7b731 100%)">
+                <i class="bi bi-bag-heart-fill"></i>
+              </div>
+              <div class="project-body">
+                <h5>Artisan Mobile</h5>
+                <p>E-commerce app for browsing and ordering furniture with a smooth cart flow, payment gateway, and delivery tracking.</p>
+                <div class="tech-tags">
+                  <span>Flutter</span><span>E-commerce</span><span>Payments</span>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- GPA Calculator -->
+          <div class="col-md-6 col-lg-4">
+            <article class="project-card">
+              <div class="project-banner" style="background:linear-gradient(135deg,#2980b9 0%,#6dd5fa 100%)">
+                <i class="bi bi-calculator-fill"></i>
+              </div>
+              <div class="project-body">
+                <h5>Uzbekistan GPA Calculator</h5>
+                <p>Academic GPA management tool with SQLite-based data persistence, semester history, and grade analytics.</p>
+                <div class="tech-tags">
+                  <span>Flutter</span><span>SQLite</span><span>Charts</span>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- GitHub CTA -->
+          <div class="col-md-6 col-lg-4 d-flex">
+            <a href="https://github.com/bakhtishod" target="_blank" rel="noopener" class="project-card project-card--cta text-decoration-none">
+              <i class="bi bi-github cta-icon"></i>
+              <p class="cta-text">See all projects on GitHub</p>
+              <span class="btn btn-outline-brand btn-sm mt-2">
+                <i class="bi bi-arrow-up-right me-1"></i>github.com/bakhtishod
+              </span>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about" class="section-pad">
+      <div class="container">
+        <div class="section-header text-center mb-5">
+          <span class="section-tag">Know Me</span>
+          <h2 class="section-title">About Me</h2>
+          <p class="section-sub">A brief intro to who I am, what I build, and where I'm headed</p>
+        </div>
+        <div class="row g-5 align-items-center">
+          <div class="col-lg-5 text-center">
+            <div class="about-avatar">
+              <img src="assets/profile.svg" alt="Bakhtishod Umurzokov">
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <p class="about-bio">
+              I'm <strong>Bakhtishod Umurzokov</strong>, a Mobile Developer based in <strong>Budapest, Hungary</strong>.
+              I specialize in building cross-platform mobile applications with Flutter and Dart, with 3+ years of professional
+              experience delivering apps to the App Store and Google Play.
+            </p>
+            <p class="about-bio">
+              Currently at <strong>AIVA Group</strong> leading Flutter development focused on scalability and performance,
+              while pursuing a BSc in Computer Science at <strong>Eötvös Loránd University (ELTE)</strong>.
+            </p>
+
+            <!-- Tech Stack -->
+            <h6 class="skills-heading mt-4 mb-3">Tech Stack</h6>
+            <div class="skill-grid">
+              <span class="skill-badge primary"><i class="bi bi-phone"></i> Flutter</span>
+              <span class="skill-badge primary"><i class="bi bi-code-slash"></i> Dart</span>
+              <span class="skill-badge"><i class="bi bi-fire"></i> Firebase</span>
+              <span class="skill-badge"><i class="bi bi-cloud"></i> REST APIs</span>
+              <span class="skill-badge"><i class="bi bi-git"></i> Git</span>
+              <span class="skill-badge"><i class="bi bi-box-seam"></i> Docker</span>
+              <span class="skill-badge"><i class="bi bi-hdd-rack"></i> Kubernetes</span>
+              <span class="skill-badge"><i class="bi bi-diagram-3"></i> BLoC / Riverpod</span>
+              <span class="skill-badge"><i class="bi bi-database"></i> SQLite</span>
+              <span class="skill-badge"><i class="bi bi-filetype-py"></i> Python</span>
+              <span class="skill-badge"><i class="bi bi-phone-landscape"></i> Kotlin</span>
+              <span class="skill-badge"><i class="bi bi-lightning-charge"></i> FastAPI</span>
+            </div>
+
+            <!-- Languages -->
+            <h6 class="skills-heading mt-4 mb-3">Spoken Languages</h6>
+            <div class="lang-grid">
+              <div class="lang-item">
+                <span class="lang-flag">🇺🇿</span>
+                <span class="lang-name">Uzbek</span>
+                <span class="lang-level">Native</span>
+              </div>
+              <div class="lang-item">
+                <span class="lang-flag">🇷🇺</span>
+                <span class="lang-name">Russian</span>
+                <span class="lang-level">Native</span>
+              </div>
+              <div class="lang-item">
+                <span class="lang-flag">🇬🇧</span>
+                <span class="lang-name">English</span>
+                <span class="lang-level">Fluent</span>
+              </div>
+              <div class="lang-item">
+                <span class="lang-flag">🇩🇪</span>
+                <span class="lang-name">German</span>
+                <span class="lang-level">Basic</span>
+              </div>
+              <div class="lang-item">
+                <span class="lang-flag">🇭🇺</span>
+                <span class="lang-name">Hungarian</span>
+                <span class="lang-level">Learning</span>
+              </div>
+            </div>
+
+            <!-- Experience -->
+            <h6 class="skills-heading mt-4 mb-3">Professional Experience</h6>
+            <div class="exp-list">
+              <div class="exp-item">
+                <div class="exp-dot"></div>
+                <div>
+                  <strong>Mobile Developer — AIVA Group</strong>
+                  <span class="exp-date">Apr 2022 – Present</span>
+                  <p class="exp-desc">
+                    Lead Flutter development focused on scalability and performance. Manage REST/HTTPS API integrations,
+                    implement state management with BLoC and Riverpod, integrate Firebase services, and contribute to
+                    CI/CD pipelines.
+                  </p>
+                </div>
+              </div>
+              <div class="exp-item">
+                <div class="exp-dot secondary"></div>
+                <div>
+                  <strong>Mobile Developer Intern — MDevs Group</strong>
+                  <span class="exp-date">Feb 2022 – Apr 2022</span>
+                  <p class="exp-desc">
+                    Developed cross-platform Flutter applications with emphasis on responsive design.
+                    Created a furniture store app with delivery and payment features, and optimized API performance.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ACADEMICS ===== -->
+    <section id="academics" class="section-pad bg-subtle">
+      <div class="container">
+        <div class="section-header text-center mb-5">
+          <span class="section-tag">Education</span>
+          <h2 class="section-title">Academics</h2>
+          <p class="section-sub">My educational journey, university life, and continuous learning</p>
+        </div>
+        <div class="academics-timeline">
+
+          <div class="acad-item featured">
+            <div class="acad-icon"><i class="bi bi-mortarboard-fill"></i></div>
+            <div class="acad-content">
+              <div class="acad-meta">2023 &mdash; 2026 &nbsp;&bull;&nbsp; Current</div>
+              <h5>BSc Computer Science</h5>
+              <p class="acad-institution"><i class="bi bi-building"></i> Eötvös Loránd University (ELTE) &middot; Budapest, Hungary</p>
+              <p>
+                Studying algorithms, data structures, software engineering, operating systems, databases, AI, and web
+                development at one of Central Europe's top research universities (ranked #501–600 globally). Actively
+                participating in university coding clubs, hackathons, and collaborative group projects. Balancing
+                full-time academic load with professional work — a challenge that keeps me sharp.
+              </p>
+              <div class="acad-tags">
+                <span>Algorithms</span><span>Software Engineering</span>
+                <span>Databases</span><span>Operating Systems</span><span>AI</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="acad-item">
+            <div class="acad-icon secondary"><i class="bi bi-award-fill"></i></div>
+            <div class="acad-content">
+              <div class="acad-meta">2020 &mdash; 2022</div>
+              <h5>High School Diploma — Exact Sciences</h5>
+              <p class="acad-institution"><i class="bi bi-building"></i> International House-Tashkent &middot; Tashkent, Uzbekistan</p>
+              <p>
+                Specialization in Exact Sciences with a rigorous focus on Mathematics, Physics, and Computer Science.
+                International House-Tashkent is one of Uzbekistan's most prestigious private secondary schools offering
+                an advanced curriculum that prepared me for university-level studies in Europe.
+                Developed strong analytical thinking and problem-solving foundations here.
+              </p>
+              <div class="acad-tags">
+                <span>Mathematics</span><span>Physics</span><span>Computer Science</span><span>English</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="acad-item">
+            <div class="acad-icon accent"><i class="bi bi-laptop-fill"></i></div>
+            <div class="acad-content">
+              <div class="acad-meta">2021 &mdash; Ongoing</div>
+              <h5>Self-Study &amp; Continuous Learning</h5>
+              <p class="acad-institution"><i class="bi bi-globe"></i> Online Platforms &amp; Open Source</p>
+              <p>
+                Continuous growth through LeetCode problem solving (profile: <em>bakhtishoddev</em>), reading the
+                official Flutter &amp; Dart documentation, Udemy courses on advanced mobile patterns, and contributing
+                to open-source repositories. Maintaining an active GitHub profile and studying clean architecture,
+                design patterns, and system design in parallel with university coursework.
+              </p>
+              <div class="acad-tags">
+                <span>LeetCode</span><span>Flutter Docs</span><span>Open Source</span><span>Design Patterns</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FAVORITES ===== -->
+    <section id="favorites" class="section-pad">
+      <div class="container">
+        <div class="section-header text-center mb-5">
+          <span class="section-tag">Personal</span>
+          <h2 class="section-title">Favorites</h2>
+          <p class="section-sub">A glimpse into my hobbies, tastes, and personality beyond the code</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3">
+            <div class="fav-card">
+              <div class="fav-icon" style="background:linear-gradient(135deg,#f093fb,#f5576c)">🍽️</div>
+              <h6>Favorite Foods</h6>
+              <ul>
+                <li>🥘 Plov (Uzbek pilaf)</li>
+                <li>🥟 Manti dumplings</li>
+                <li>🍜 Lagman noodle soup</li>
+                <li>🍕 Pizza Margherita</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="fav-card">
+              <div class="fav-icon" style="background:linear-gradient(135deg,#4facfe,#00f2fe)">⚽</div>
+              <h6>Sports</h6>
+              <ul>
+                <li>⚽ Football — the beautiful game</li>
+                <li>🏋️ Gym &amp; fitness training</li>
+                <li>🏊 Swimming</li>
+                <li>♟️ Chess</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="fav-card">
+              <div class="fav-icon" style="background:linear-gradient(135deg,#43e97b,#38f9d7)">💡</div>
+              <h6>Activities</h6>
+              <ul>
+                <li>💻 Building new apps</li>
+                <li>📚 Reading tech books</li>
+                <li>🎬 Sci-fi &amp; thriller films</li>
+                <li>✈️ Exploring Europe</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="fav-card">
+              <div class="fav-icon" style="background:linear-gradient(135deg,#fa709a,#fee140)">🛠️</div>
+              <h6>Favorite Tools</h6>
+              <ul>
+                <li>🐦 Flutter &amp; Dart SDK</li>
+                <li>🤖 Android Studio</li>
+                <li>🐙 GitHub</li>
+                <li>🔥 Firebase Console</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="section-pad contact-section">
+      <div class="container">
+        <div class="section-header text-center mb-5">
+          <span class="section-tag light">Let's Connect</span>
+          <h2 class="section-title text-white">Get In Touch</h2>
+          <p class="section-sub" style="color:rgba(255,255,255,0.55)">
+            Open to work opportunities, app collaborations, and interesting conversations
+          </p>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-lg-6">
+            <div class="contact-links">
+              <a href="https://github.com/bakhtishod" target="_blank" rel="noopener" class="contact-link">
+                <i class="bi bi-github"></i>
+                <div>
+                  <strong>GitHub</strong>
+                  <span>github.com/bakhtishod</span>
+                </div>
+                <i class="bi bi-arrow-right ms-auto"></i>
+              </a>
+              <a href="https://linkedin.com/in/bakhtishod" target="_blank" rel="noopener" class="contact-link">
+                <i class="bi bi-linkedin"></i>
+                <div>
+                  <strong>LinkedIn</strong>
+                  <span>linkedin.com/in/bakhtishod</span>
+                </div>
+                <i class="bi bi-arrow-right ms-auto"></i>
+              </a>
+              <a href="https://t.me/iamumurzakov" target="_blank" rel="noopener" class="contact-link">
+                <i class="bi bi-telegram"></i>
+                <div>
+                  <strong>Telegram</strong>
+                  <span>@iamumurzakov</span>
+                </div>
+                <i class="bi bi-arrow-right ms-auto"></i>
+              </a>
+              <a href="https://wa.me/36205382313" target="_blank" rel="noopener" class="contact-link">
+                <i class="bi bi-whatsapp"></i>
+                <div>
+                  <strong>WhatsApp</strong>
+                  <span>+36 70 539 3359</span>
+                </div>
+                <i class="bi bi-arrow-right ms-auto"></i>
+              </a>
+              <a href="https://www.youtube.com/@BakhtishodEU" target="_blank" rel="noopener" class="contact-link">
+                <i class="bi bi-youtube"></i>
+                <div>
+                  <strong>YouTube</strong>
+                  <span>@BakhtishodEU</span>
+                </div>
+                <i class="bi bi-arrow-right ms-auto"></i>
+              </a>
+              <a href="https://bakhtishoddev.uz" target="_blank" rel="noopener" class="contact-link">
+                <i class="bi bi-globe2"></i>
+                <div>
+                  <strong>Portfolio Website</strong>
+                  <span>bakhtishoddev.uz</span>
+                </div>
+                <i class="bi bi-arrow-right ms-auto"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="container text-center">
+      <a class="footer-brand" href="#">Bakhtishod Umurzokov</a>
+      <nav class="footer-nav my-2" aria-label="Footer">
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#about">About</a>
+        <a href="#academics">Academics</a>
+        <a href="#favorites">Favorites</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <p class="footer-copy">&copy; 2026 Bakhtishod Umurzokov &mdash; Mobile Developer &middot; Budapest, Hungary</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    (function () {
+      'use strict';
+
+      // Navbar: add scrolled class for shadow
+      const header = document.getElementById('site-header');
+      window.addEventListener('scroll', function () {
+        header.classList.toggle('scrolled', window.scrollY > 30);
+      }, { passive: true });
+
+      // Active nav link on scroll via IntersectionObserver
+      const sections = document.querySelectorAll('section[id]');
+      const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+      const observer = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            navLinks.forEach(function (l) { l.classList.remove('active'); });
+            const active = document.querySelector('.navbar-nav a[href="#' + entry.target.id + '"]');
+            if (active) active.classList.add('active');
+          }
+        });
+      }, { rootMargin: '-35% 0px -60% 0px' });
+      sections.forEach(function (s) { observer.observe(s); });
+
+      // Collapse nav on mobile link click
+      document.querySelectorAll('#navMenu .nav-link, #navMenu .btn-brand').forEach(function (el) {
+        el.addEventListener('click', function () {
+          var collapse = document.getElementById('navMenu');
+          if (collapse.classList.contains('show')) {
+            var bsCollapse = bootstrap.Collapse.getInstance(collapse);
+            if (bsCollapse) bsCollapse.hide();
+          }
+        });
+      });
+    })();
+  </script>
+</body>
+</html>
